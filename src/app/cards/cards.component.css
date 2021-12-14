@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px; 
+  }
+  .grid-item {
+    margin: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: auto auto auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .grid-container {
+      grid-template-columns: auto;
+    }
+  }
